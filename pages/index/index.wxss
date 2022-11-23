@@ -1,0 +1,23 @@
+.header {
+  background-color: #b48c60;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left,
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+image {
+  overflow: hidden;
+  width: 80%;
+}

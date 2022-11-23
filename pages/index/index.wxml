@@ -1,0 +1,11 @@
+<view class="header">
+  <image src="../../statistics/img/home.png" alt="首页header图片"/>
+</view>
+<view class="container">
+  <view class="left">
+    <image src="../../statistics/img/cafe.jpeg" mode="center"/>
+  </view>
+  <view class="right">
+    <image src="../../statistics/img/cafe.jpeg" mode="center"/>
+  </view>
+</view>
