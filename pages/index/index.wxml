@@ -1,17 +1,21 @@
 <view class="header">
   <image src="../../statistics/img/home.png" alt="首页header图片"/>
 </view>
-<view class="container">
+<view class="main">
+<view class="order">
   <view class="left">
-    <image src="../../statistics/img/cafe.jpeg"/>
     <view>
       <text>到店自取</text>
     </view>
+    <image src="../../statistics/img/cafe.jpeg"/>
+  
   </view>
   <view class="right">
-    <image src="../../statistics/img/cafe.jpeg"/>
     <view>
-      <text>到店自取</text>
+      <text>外卖到家</text>
     </view>
+    <image src="../../statistics/img/send.jpeg"/>
+   
   </view>
+</view>
 </view>
