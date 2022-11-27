@@ -26,7 +26,8 @@
    <text>6张好礼券</text>
   </view>
 </view>
-<view class="order">
+<view class="content">
+  <view class="order">
  <navigator class="left" url="../list/list">
   <view class="activity">
       太妃榛果回归
@@ -114,5 +115,6 @@
   <view class="right-store">
     <image src="../../statistics/img/store.jpg" mode="aspectFill"/>
   </view>
+</view>
 </view>
 </view>

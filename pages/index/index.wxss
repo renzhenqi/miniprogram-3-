@@ -73,6 +73,15 @@ page {
   padding: 25rpx;
   background-color: #f6f6f6;
 }
+.content {
+  margin-top: -40px;
+}
+.order,
+.navigator,
+swiper,
+.stores {
+  margin: 40rpx auto;
+}
 .order {
   display: flex;
   flex-direction: row;
@@ -81,8 +90,6 @@ page {
   border-radius: 10rpx;
   background-color: #fff;
   box-shadow: 0 10px 10px -10px rgba(51, 51, 51, .15);
-  position: relative;
-  top: -80rpx;
 }
 .activity {
   background-color: orange;
@@ -117,7 +124,6 @@ page {
 
 .left image,
 .right image {
-  overflow: hidden;
   width: 80%;
   height: 200rpx;
   border-radius: 20rpx;
@@ -151,6 +157,7 @@ page {
 
 .tag {
   font-weight: lighter;
+  font-size: 20rpx;
 }
 
 swiper {
@@ -169,10 +176,6 @@ swiper image{
   font-weight: bold;
 }
 
-.left-store .tag{
-  font-weight: lighter;
-  font-size: 20rpx;
-}
 .stores image {
   width: 140rpx;
   height: 120rpx;
@@ -195,9 +198,4 @@ swiper image{
   align-items: center;
   color: gray;
   justify-content: center;
-}
-
-.left-store {
-  display: flex;
-  flex-direction: column;
 }
