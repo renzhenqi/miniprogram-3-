@@ -1,21 +1,118 @@
-<view class="header">
-  <image src="../../statistics/img/home.png" alt="首页header图片"/>
+<view class="navigation">
+  <image src="../../statistics/img/navigator-2.jpg" alt="首页header图片"/>
 </view>
 <view class="main">
-<view class="order">
-  <view class="left">
-    <view>
-      <text>到店自取</text>
-    </view>
-    <image src="../../statistics/img/cafe.jpeg"/>
-  
+<view class="header">
+  <view class="icon">
+    <image src="../../statistics/img/icon.png" mode=""/>
   </view>
-  <view class="right">
-    <view>
-      <text>外卖到家</text>
+  <view class="info">
+    <view class="gain">
+      <text style="font-weight: bold;">0</text>
+    <text>/4</text>
+    <image src="../../statistics/img/cafe-icon.png" mode=""/>
     </view>
-    <image src="../../statistics/img/send.jpeg"/>
-   
+    <view class="score">
+      <text>再积4</text>
+      <image src="../../statistics/img/cafe-icon.png" mode=""/>
+      <text>可升级获取好礼</text>
+      <text> > </text>
+    </view>
+    <view class="line">
+      
+    </view>      
+  </view>
+  <view class="gift">
+   <text>6张好礼券</text>
+  </view>
+</view>
+<view class="order">
+ <navigator class="left" url="../list/list">
+  <view class="activity">
+      太妃榛果回归
+  </view>
+  <view class="card">
+    <view>
+      <text>啡快</text>
+    </view>
+    <image src="../../statistics/img/starbucks-2.jpg"/>
+  </view>
+ </navigator>
+  
+  <navigator class="right" url="../list/list">
+    <view class="activity">
+      今日满20免运
+    </view>
+    <view class="card">
+    <view>
+      <text>专星送</text>
+    </view>
+    <image src="../../statistics/img/send-2.jpg"/>
+  </view>
+  </navigator>
+ 
+</view>
+<view class="navigator">
+  <view class="navigator-item">
+    <image src="../../statistics/img/cup4.jpeg" mode=""/>
+    <view>
+      <text>生活馆</text>
+    </view>
+    <view>
+      <text class="tag">选门店星杯</text>
+    </view>
+  </view>
+  <view class="navigator-item">
+    <image src="../../statistics/img/cup4.jpeg" mode=""/>
+    <view>
+      <text>送心意</text>
+    </view>
+    <view>
+      <text class="tag">对TA说声感谢</text>
+    </view>
+  </view>
+  <view class="navigator-item">
+    <image src="../../statistics/img/cup4.jpeg" mode=""/>
+    <view>
+      <text>省心购</text>
+    </view>
+    <view>
+      <text></text>
+    </view>
+  </view>
+  <view class="navigator-item">
+    <image src="../../statistics/img/cup4.jpeg" mode=""/>
+    <view>
+      <text>拼单</text>
+    </view>
+    <view>
+      <text class="tag">一起拼单省运费</text>
+    </view>
+  </view>
+</view>
+<swiper autoplay="true" indicator-dots="true" interval="2000">
+  <swiper-item>
+    <image src="../../statistics/img/navigator-2.jpg" mode=""/>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../statistics/img/starbucks-2.jpg" mode=""/>
+  </swiper-item>
+</swiper>
+<view class="stores">
+  <view class="left-store">
+      <view class="search-stores">
+        <text>查找门店</text>
+
+        <view class="tag">
+          <text>></text>
+        </view>
+      </view>
+      <view>
+    <text class="tag">带你发掘更多线下门店</text>
+  </view>
+  </view>
+  <view class="right-store">
+    <image src="../../statistics/img/store.jpg" mode=""/>
   </view>
 </view>
 </view>

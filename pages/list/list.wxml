@@ -1,0 +1,36 @@
+<!--pages/list/list.wxml-->
+<view class="container">
+  <view class="main">
+    <view class="aside">
+      <view 
+      data-type="collection"
+      bindtap="switch">
+        星级套餐
+      </view>
+      <view 
+      data-type="single"
+      bindtap="switch">
+        品质单饮
+      </view>
+      <view>
+        星级套餐
+      </view>
+      <view>
+        星级套餐
+      </view>
+      <view>
+        星级套餐
+      </view>
+    </view>
+    <view class="content">
+      <view 
+      wx:for="{{list}}" 
+      wx:for-index="index" 
+      wx:for-item="item"
+      wx:key="src"
+      class="items">
+       <image src="{{item.src}}" mode=""/>
+      </view>
+    </view>
+  </view>
+</view>
