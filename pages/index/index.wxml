@@ -1,5 +1,5 @@
 <view class="navigation">
-  <image src="../../statistics/img/navigator-2.jpg" alt="首页header图片"/>
+  <image mode="aspectFill" src="../../statistics/img/navigator-2.jpg" alt="首页header图片"/>
 </view>
 <view class="main">
 <view class="header">
@@ -92,10 +92,10 @@
 </view>
 <swiper autoplay="true" indicator-dots="true" interval="2000">
   <swiper-item>
-    <image src="../../statistics/img/navigator-2.jpg" mode=""/>
+    <image src="../../statistics/img/navigator-2.jpg" mode="scaleToFill"/>
   </swiper-item>
   <swiper-item>
-    <image src="../../statistics/img/starbucks-2.jpg" mode=""/>
+    <image src="../../statistics/img/starbucks-2.jpg" mode="scaleToFill"/>
   </swiper-item>
 </swiper>
 <view class="stores">
@@ -112,7 +112,7 @@
   </view>
   </view>
   <view class="right-store">
-    <image src="../../statistics/img/store.jpg" mode=""/>
+    <image src="../../statistics/img/store.jpg" mode="aspectFill"/>
   </view>
 </view>
 </view>
